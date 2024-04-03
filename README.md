@@ -1,1 +1,3 @@
-# CNN_Image_Recognition_Alphabet
+Name: Using Machine Learning Algorithms for Image Classification of Handwritten Alphabet A-Z
+
+This software will use a Convolutional Neural Network(CNN) to recognise handwritten aplhabet letters A-Z. The data used to train the model are from the NIST handrwitten character dataset (https://www.nist.gov/srd/nist-special-database-19). To run the code a vitrual environment must be made in the terminal to install the necessary packages. This can be done by running "pip install (package name)" in the termminal. The packages needed are tensorflow, panda, matplotlib, numpy, and cv-python. Once these are installed in the virtual environemnt the file can be run in the terminal with "python (filename.py)". 
