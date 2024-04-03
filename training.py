@@ -37,7 +37,7 @@ model = models.Sequential([
 
 # Compile the model
 model.compile(optimizer='adam',
-              loss='categorical_crossentropy',  # Change to categorical_crossentropy
+              loss='categorical_crossentropy',
               metrics=['accuracy'])
 
 # Train the model
