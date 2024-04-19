@@ -47,4 +47,5 @@ model.fit(X_train, y_train, epochs=10, batch_size=64)
 test_loss, test_acc = model.evaluate(X_test, y_test)
 print('Test accuracy:', test_acc)
 
-model.save('handrwitten model.keras')
+#Save the model
+model.save('handwritten model5.keras')
